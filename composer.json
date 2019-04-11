@@ -1,0 +1,29 @@
+{
+    "name": "netpromotion/lazy-logger",
+    "description": "Psr\\Log\\LoggerInterface implementation which creates real logger only if it is needed",
+    "homepage": "https://github.com/netpromotion/lazy-logger/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Petr Knap",
+            "email": "knap@netpromotion.cz"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "psr/log": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Netpromotion\\LazyLogger\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Netpromotion\\LazyLogger\\Test\\": "tests"
+        }
+    }
+}
